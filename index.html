@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Desert Luxe Interiors - Premium Interior Design & Fit-Out Solutions Across UAE. Luxury villa, apartment, and office interior design in Dubai and Abu Dhabi." />
+  <meta name="keywords" content="Interior Design Dubai, Luxury Interior Design UAE, Villa Interior Design Dubai, Office Interior Design Dubai, Fit-Out Company Dubai" />
+  <meta name="author" content="Desert Luxe Interiors" />
+  <meta property="og:title" content="Desert Luxe Interiors | Premium Interior Design UAE" />
+  <meta property="og:description" content="Transforming Spaces Into Timeless Luxury. Premium Interior Design & Fit-Out Solutions Across UAE." />
+  <meta property="og:type" content="website" />
+  <title>Desert Luxe Interiors | Premium Interior Design UAE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {
+              50: '#fdf9f0',
+              100: '#f9efd6',
+              200: '#f2dbad',
+              300: '#e8c07a',
+              400: '#dca44e',
+              500: '#c88a2d',
+              600: '#a87022',
+              700: '#86551d',
+              800: '#6e441c',
+              900: '#5b391a',
+            },
+            cream: {
+              50: '#faf8f5',
+              100: '#f5f0e8',
+              200: '#ede5d8',
+              300: '#e0d4c0',
+            },
+            charcoal: {
+              50: '#f6f6f6',
+              100: '#e7e7e7',
+              200: '#d1d1d1',
+              300: '#b0b0b0',
+              400: '#888888',
+              500: '#6d6d6d',
+              600: '#5d5d5d',
+              700: '#4f4f4f',
+              800: '#454545',
+              900: '#1a1a1a',
+            }
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'Cormorant Garamond', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Cormorant Garamond', 'Playfair Display', 'serif'],
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            'fade-in': 'fadeIn 0.6s ease-out forwards',
+            'slide-in-right': 'slideInRight 0.6s ease-out forwards',
+            'scale-in': 'scaleIn 0.5s ease-out forwards',
+            'float': 'float 6s ease-in-out infinite',
+            'shimmer': 'shimmer 2s infinite',
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(30px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+            slideInRight: {
+              '0%': { opacity: '0', transform: 'translateX(40px)' },
+              '100%': { opacity: '1', transform: 'translateX(0)' },
+            },
+            scaleIn: {
+              '0%': { opacity: '0', transform: 'scale(0.95)' },
+              '100%': { opacity: '1', transform: 'scale(1)' },
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            shimmer: {
+              '0%': { backgroundPosition: '-200% 0' },
+              '100%': { backgroundPosition: '200% 0' },
+            },
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    ::selection { background: #c88a2d; color: white; }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #c88a2d 0%, #e8c07a 50%, #a87022 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .gold-gradient-bg {
+      background: linear-gradient(135deg, #c88a2d 0%, #e8c07a 50%, #a87022 100%);
+    }
+    .hero-overlay {
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.7) 100%);
+    }
+    .noise-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="bg-cream-50 text-charcoal-900 antialiased">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

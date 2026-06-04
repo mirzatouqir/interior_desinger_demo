@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream-50 text-charcoal-900 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+@layer components {
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #c88a2d 0%, #e8c07a 50%, #a87022 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .gold-gradient-bg {
+    background: linear-gradient(135deg, #c88a2d 0%, #e8c07a 50%, #a87022 100%);
+  }
+  .gold-border {
+    border: 1px solid rgba(200, 138, 45, 0.3);
+  }
+  .gold-border-hover:hover {
+    border-color: rgba(200, 138, 45, 0.6);
+  }
+  .luxury-card {
+    @apply bg-white rounded-sm shadow-sm border border-charcoal-100 overflow-hidden transition-all duration-500;
+  }
+  .luxury-card:hover {
+    @apply shadow-xl border-gold-300;
+    transform: translateY(-4px);
+  }
+  .section-padding {
+    @apply py-20 md:py-28 px-4 sm:px-6 lg:px-8 xl:px-12;
+  }
+  .container-luxury {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-charcoal-900 text-white font-medium tracking-wider uppercase text-sm transition-all duration-300;
+  }
+  .btn-primary:hover {
+    @apply bg-gold-600;
+  }
+  .btn-gold {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-gold-500 text-white font-medium tracking-wider uppercase text-sm transition-all duration-300;
+  }
+  .btn-gold:hover {
+    @apply bg-gold-600;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-medium tracking-wider uppercase text-sm transition-all duration-300;
+  }
+  .btn-outline:hover {
+    @apply bg-white text-charcoal-900;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
+  .animate-delay-600 { animation-delay: 600ms; }
+}

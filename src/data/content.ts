@@ -1,0 +1,627 @@
+// SEO Keywords
+export const SEO_KEYWORDS = [
+  'Interior Design Dubai',
+  'Luxury Interior Design UAE',
+  'Villa Interior Design Dubai',
+  'Office Interior Design Dubai',
+  'Fit-Out Company Dubai',
+  'Apartment Interior Design Dubai',
+  'Premium Interior Design Abu Dhabi',
+  'Luxury Villa Design UAE',
+  'Commercial Interior Design Dubai',
+  'Custom Furniture Dubai',
+  'Interior Renovation Dubai',
+  'Turnkey Fit-Out Dubai',
+];
+
+// Navigation
+export const NAV_LINKS = [
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Services', href: '/services' },
+  { label: 'Portfolio', href: '/portfolio' },
+  { label: 'Contact', href: '/contact' },
+];
+
+// Statistics
+export const STATS = [
+  { number: '250+', label: 'Projects Completed', description: 'Luxury residential & commercial spaces across the UAE' },
+  { number: '10+', label: 'Years Experience', description: 'Delivering excellence since 2015' },
+  { number: '98%', label: 'Client Satisfaction', description: 'Based on post-project surveys' },
+  { number: '50+', label: 'Design Experts', description: 'Architects, designers & project managers' },
+];
+
+// Services
+export const SERVICES = [
+  {
+    id: 'villa-interior-design',
+    title: 'Villa Interior Design',
+    shortDescription: 'Bespoke luxury villa interiors that reflect your lifestyle and elevate everyday living.',
+    fullDescription: 'Our villa interior design service transforms grand residences into personalized sanctuaries of luxury. From Emirates Hills to Palm Jumeirah, we create interiors that blend architectural grandeur with intimate comfort. Every detail is curated — from custom millwork and imported marble to bespoke lighting schemes and curated art placement.',
+    icon: 'Home',
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+    features: [
+      'Full-space conceptual design & 3D visualization',
+      'Custom furniture & millwork design',
+      'Luxury material sourcing (Italian marble, exotic woods)',
+      'Smart home integration planning',
+      'Project management from concept to handover',
+      'Post-completion styling & art curation',
+    ],
+    benefits: [
+      'Increase property value by up to 30%',
+      'Personalized spaces that reflect your identity',
+      'Seamless indoor-outdoor living experiences',
+      'Timeless designs that age gracefully',
+    ],
+    process: [
+      { step: '01', title: 'Discovery', desc: 'In-depth consultation to understand your lifestyle, preferences, and vision.' },
+      { step: '02', title: 'Concept', desc: 'Mood boards, material palettes, and initial spatial planning.' },
+      { step: '03', title: 'Design', desc: 'Detailed 3D renders, technical drawings, and specification documents.' },
+      { step: '04', title: 'Execution', desc: 'Precision fit-out with weekly site visits and quality control.' },
+      { step: '05', title: 'Reveal', desc: 'Final styling, art placement, and handover of your transformed home.' },
+    ],
+    locations: ['Palm Jumeirah', 'Emirates Hills', 'Dubai Hills', 'Arabian Ranches', 'Al Barari'],
+  },
+  {
+    id: 'apartment-interior-design',
+    title: 'Apartment Interior Design',
+    shortDescription: 'Sophisticated apartment interiors maximizing space, light, and luxury in every square meter.',
+    fullDescription: 'Whether it is a penthouse in Downtown Dubai or a waterfront apartment in Dubai Marina, we design spaces that feel expansive, elegant, and deeply personal. Our apartment designs optimize every square meter while maintaining the grandeur expected of luxury living in the UAE.',
+    icon: 'Building2',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+    features: [
+      'Space optimization for luxury apartments',
+      'Custom built-in storage solutions',
+      'Premium kitchen & bathroom design',
+      'Lighting design for ambiance & functionality',
+      'Furniture selection & procurement',
+      'Window treatment & soft furnishings',
+    ],
+    benefits: [
+      'Maximize space without compromising luxury',
+      'Increase rental yield & resale value',
+      'Create a cohesive aesthetic throughout',
+      'Reduce clutter with intelligent storage',
+    ],
+    process: [
+      { step: '01', title: 'Consultation', desc: 'Site visit and detailed brief development for your apartment.' },
+      { step: '02', title: 'Layout', desc: 'Space planning optimized for flow, light, and functionality.' },
+      { step: '03', title: 'Design', desc: 'Material selection, 3D visualization, and fixture specification.' },
+      { step: '04', title: 'Fit-Out', desc: 'Coordinated execution with building management approvals.' },
+      { step: '05', title: 'Completion', desc: 'Final installation, styling, and quality assurance.' },
+    ],
+    locations: ['Downtown Dubai', 'Dubai Marina', 'Business Bay', 'JBR', 'Bluewaters Island'],
+  },
+  {
+    id: 'office-interior-design',
+    title: 'Office Interior Design',
+    shortDescription: 'Productive, impressive workspaces that reflect your brand and inspire your team.',
+    fullDescription: 'We design commercial interiors that balance aesthetics with functionality. From executive suites to creative co-working spaces, our office designs enhance productivity, impress clients, and reflect your corporate identity. We understand the unique requirements of UAE commercial spaces including DED approvals and building regulations.',
+    icon: 'Briefcase',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+    features: [
+      'Brand-aligned workspace design',
+      'Ergonomic furniture & workstation planning',
+      'Meeting room & collaboration zones',
+      'Reception & client experience areas',
+      'Acoustic treatment & sound management',
+      'Biophilic design & wellness integration',
+    ],
+    benefits: [
+      'Boost employee productivity by up to 25%',
+      'Strengthen brand perception with clients',
+      'Reduce staff turnover through better environment',
+      'Optimize space utilization & reduce costs',
+    ],
+    process: [
+      { step: '01', title: 'Brief', desc: 'Workplace strategy session and brand alignment workshop.' },
+      { step: '02', title: 'Plan', desc: 'Zoning, capacity planning, and circulation analysis.' },
+      { step: '03', title: 'Design', desc: 'Visual identity integration, 3D visualization, and specification.' },
+      { step: '04', title: 'Build', desc: 'Commercial fit-out with minimal business disruption.' },
+      { step: '05', title: 'Launch', desc: 'Move-in coordination, IT integration, and final handover.' },
+    ],
+    locations: ['DIFC', 'Business Bay', 'Dubai Media City', 'Abu Dhabi Global Market', 'JLT'],
+  },
+  {
+    id: 'fit-out-services',
+    title: 'Fit-Out Services',
+    shortDescription: 'End-to-end turnkey fit-out solutions delivering precision, quality, and on-time completion.',
+    fullDescription: 'Our turnkey fit-out service manages every aspect of your project from initial concept through final handover. With our own team of skilled craftsmen and trusted subcontractor network, we deliver commercial and residential fit-outs to the highest standards, on time and within budget.',
+    icon: 'Hammer',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80',
+    features: [
+      'Turnkey project management',
+      'Civil works & structural modifications',
+      'MEP (Mechanical, Electrical, Plumbing)',
+      'Joinery & custom carpentry',
+      'Flooring, ceiling & wall finishes',
+      'Authority approvals & NOC management',
+    ],
+    benefits: [
+      'Single point of accountability',
+      'Guaranteed timeline adherence',
+      'Cost control with transparent pricing',
+      'Quality assurance at every stage',
+    ],
+    process: [
+      { step: '01', title: 'Survey', desc: 'Detailed site survey and existing condition assessment.' },
+      { step: '02', title: 'Plan', desc: 'Technical drawings, BOQ, and project schedule development.' },
+      { step: '03', title: 'Approve', desc: 'Authority submissions and approval coordination.' },
+      { step: '04', title: 'Execute', desc: 'Phased construction with weekly progress reporting.' },
+      { step: '05', title: 'Handover', desc: 'Snagging, final inspections, and warranty documentation.' },
+    ],
+    locations: ['Dubai', 'Abu Dhabi', 'Sharjah', 'Ras Al Khaimah'],
+  },
+  {
+    id: 'renovation',
+    title: 'Renovation',
+    shortDescription: 'Transform existing spaces with modern luxury renovations that breathe new life into your property.',
+    fullDescription: 'Our renovation service reimagines tired spaces into contemporary luxury environments. Whether updating a single room or undertaking a full property transformation, we manage structural changes, material upgrades, and modern system integration while respecting your property\'s architectural integrity.',
+    icon: 'RefreshCw',
+    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80',
+    features: [
+      'Full & partial property renovations',
+      'Kitchen & bathroom transformations',
+      'Structural modifications & extensions',
+      'Facade & exterior upgrades',
+      'System upgrades (HVAC, electrical, plumbing)',
+      'Heritage property sensitive renovations',
+    ],
+    benefits: [
+      'Modernize without losing character',
+      'Significant property value increase',
+      'Improved energy efficiency',
+      'Enhanced comfort & functionality',
+    ],
+    process: [
+      { step: '01', title: 'Assess', desc: 'Condition survey and renovation scope definition.' },
+      { step: '02', title: 'Design', desc: 'Renovation concept preserving architectural value.' },
+      { step: '03', title: 'Demo', desc: 'Safe dismantling with material salvage where possible.' },
+      { step: '04', title: 'Rebuild', desc: 'Structural, MEP, and finishing works execution.' },
+      { step: '05', title: 'Renew', desc: 'Final finishes, fixtures, and styling.' },
+    ],
+    locations: ['All Emirates'],
+  },
+  {
+    id: 'custom-furniture',
+    title: 'Custom Furniture',
+    shortDescription: 'Bespoke furniture pieces crafted to your exact specifications by master artisans.',
+    fullDescription: 'Our custom furniture service creates one-of-a-kind pieces that perfectly fit your space and style. From statement dining tables in rare marble to hand-tufted sofas in Italian leather, every piece is designed by our team and crafted by skilled artisans using the finest materials.',
+    icon: 'Sofa',
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80',
+    features: [
+      'Bespoke furniture design & drafting',
+      'Premium material selection (leather, marble, exotic woods)',
+      'Master craftsmanship & joinery',
+      'Upholstery in luxury fabrics',
+      'Lighting-integrated furniture',
+      'Art piece & sculpture commissioning',
+    ],
+    benefits: [
+      'Perfect fit for your exact dimensions',
+      'Unique pieces unavailable elsewhere',
+      'Superior quality vs. mass production',
+      'Complete design cohesion',
+    ],
+    process: [
+      { step: '01', title: 'Concept', desc: 'Design brief and initial sketches.' },
+      { step: '02', title: 'Material', desc: 'Selection of woods, metals, fabrics, and finishes.' },
+      { step: '03', title: 'Craft', desc: 'Precision manufacturing by master artisans.' },
+      { step: '04', title: 'Finish', desc: 'Hand-finishing, upholstery, and quality control.' },
+      { step: '05', title: 'Deliver', desc: 'White-glove delivery and placement in your space.' },
+    ],
+    locations: ['Dubai Workshop', 'Italy Partnership', 'Turkey Partnership'],
+  },
+];
+
+// Portfolio Projects
+export const PORTFOLIO_PROJECTS = [
+  {
+    id: 1,
+    title: 'The Palm Residence',
+    location: 'Palm Jumeirah, Dubai',
+    category: 'Villa',
+    description: 'A 12,000 sq ft beachfront villa featuring Italian marble, custom walnut millwork, and a seamless indoor-outdoor living concept with panoramic sea views.',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
+    ],
+    year: '2025',
+    area: '12,000 sq ft',
+    client: 'Private Client',
+    tags: ['Villa', 'Palm Jumeirah', 'Luxury', 'Contemporary'],
+  },
+  {
+    id: 2,
+    title: 'Marina Sky Penthouse',
+    location: 'Dubai Marina, Dubai',
+    category: 'Apartment',
+    description: 'A stunning penthouse redesign maximizing natural light and marina views with floor-to-ceiling windows, bespoke Italian kitchen, and a private rooftop terrace.',
+    image: 'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80',
+      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80',
+      'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80',
+    ],
+    year: '2025',
+    area: '4,500 sq ft',
+    client: 'Private Client',
+    tags: ['Penthouse', 'Dubai Marina', 'Modern', 'Waterfront'],
+  },
+  {
+    id: 3,
+    title: 'Downtown Executive Suite',
+    location: 'Downtown Dubai, Dubai',
+    category: 'Apartment',
+    description: 'A Burj Khalifa-facing apartment transformed into an urban sanctuary with warm minimalism, curated art collection integration, and smart home automation.',
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
+    ],
+    year: '2024',
+    area: '3,200 sq ft',
+    client: 'Private Client',
+    tags: ['Apartment', 'Downtown Dubai', 'Minimalist', 'Smart Home'],
+  },
+  {
+    id: 4,
+    title: 'Business Bay Corporate HQ',
+    location: 'Business Bay, Dubai',
+    category: 'Office',
+    description: 'A 25,000 sq ft corporate headquarters designed for a leading investment firm, featuring executive suites, collaborative zones, and a stunning reception with onyx walls.',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80',
+      'https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80',
+    ],
+    year: '2025',
+    area: '25,000 sq ft',
+    client: 'Confidential',
+    tags: ['Office', 'Business Bay', 'Corporate', 'Luxury'],
+  },
+  {
+    id: 5,
+    title: 'Emirates Hills Estate',
+    location: 'Emirates Hills, Dubai',
+    category: 'Villa',
+    description: 'A grand 18,000 sq ft family estate blending classical elegance with contemporary comfort, featuring a private spa, wine cellar, and landscaped gardens.',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+      'https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=800&q=80',
+      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
+    ],
+    year: '2024',
+    area: '18,000 sq ft',
+    client: 'Private Client',
+    tags: ['Villa', 'Emirates Hills', 'Classical', 'Family Estate'],
+  },
+  {
+    id: 6,
+    title: 'Saadiyat Island Villa',
+    location: 'Saadiyat Island, Abu Dhabi',
+    category: 'Villa',
+    description: 'A beachfront villa on Saadiyat Island designed with organic materials, natural textures, and a palette inspired by the surrounding dunes and sea.',
+    image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80',
+      'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80',
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
+    ],
+    year: '2025',
+    area: '10,500 sq ft',
+    client: 'Private Client',
+    tags: ['Villa', 'Abu Dhabi', 'Organic', 'Beachfront'],
+  },
+  {
+    id: 7,
+    title: 'DIFC Law Firm Offices',
+    location: 'DIFC, Dubai',
+    category: 'Office',
+    description: 'A prestigious law firm office combining traditional prestige with modern efficiency, featuring leather-paneled walls, marble floors, and state-of-the-art conference facilities.',
+    image: 'https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&q=80',
+      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80',
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80',
+    ],
+    year: '2024',
+    area: '8,000 sq ft',
+    client: 'Confidential',
+    tags: ['Office', 'DIFC', 'Legal', 'Prestige'],
+  },
+  {
+    id: 8,
+    title: 'Bluewaters Island Apartment',
+    location: 'Bluewaters Island, Dubai',
+    category: 'Apartment',
+    description: 'A waterfront apartment with panoramic Ain Dubai views, featuring a monochromatic palette with gold accents, custom lighting, and bespoke Italian furniture.',
+    image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+    ],
+    year: '2025',
+    area: '3,800 sq ft',
+    client: 'Private Client',
+    tags: ['Apartment', 'Bluewaters', 'Waterfront', 'Monochrome'],
+  },
+  {
+    id: 9,
+    title: 'Al Raha Beach Villa',
+    location: 'Al Raha Beach, Abu Dhabi',
+    category: 'Villa',
+    description: 'A modern Mediterranean-inspired villa with arched doorways, terrazzo floors, and a stunning courtyard pool, designed for indoor-outdoor family living.',
+    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
+      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+    ],
+    year: '2024',
+    area: '9,000 sq ft',
+    client: 'Private Client',
+    tags: ['Villa', 'Abu Dhabi', 'Mediterranean', 'Family'],
+  },
+];
+
+// Testimonials
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    name: 'Ahmed Al-Rashid',
+    role: 'Villa Owner',
+    location: 'Palm Jumeirah, Dubai',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80',
+    quote: 'Desert Luxe transformed our villa beyond anything we imagined. The attention to detail, the quality of materials, and the seamless project management made the entire experience exceptional. Our home is now a true reflection of our family.',
+    rating: 5,
+    project: 'The Palm Residence',
+  },
+  {
+    id: 2,
+    name: 'Sarah Mitchell',
+    role: 'Property Investor',
+    location: 'Downtown Dubai',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80',
+    quote: 'As an investor, I needed a design team that understood both luxury and ROI. Desert Luxe delivered a penthouse that rents at a 40% premium over comparable units. Their market insight is as impressive as their design talent.',
+    rating: 5,
+    project: 'Downtown Executive Suite',
+  },
+  {
+    id: 3,
+    name: 'Khalid Bin Saeed',
+    role: 'CEO',
+    location: 'Business Bay, Dubai',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80',
+    quote: 'Our new headquarters has transformed how clients perceive our brand. The reception area alone has won us multiple new contracts. Desert Luxe understood our corporate identity and translated it into a space that inspires.',
+    rating: 5,
+    project: 'Business Bay Corporate HQ',
+  },
+  {
+    id: 4,
+    name: 'Fatima Al-Zaabi',
+    role: 'Apartment Owner',
+    location: 'Dubai Marina',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80',
+    quote: 'I was amazed at how they maximized every square meter of my apartment. The custom storage solutions and the way they captured the marina views — pure genius. It feels like a suite at a five-star hotel.',
+    rating: 5,
+    project: 'Marina Sky Penthouse',
+  },
+  {
+    id: 5,
+    name: 'James Thornton',
+    role: 'Real Estate Developer',
+    location: 'Abu Dhabi',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80',
+    quote: 'We have worked with many fit-out companies across the UAE, but Desert Luxe stands apart. Their turnkey service, quality control, and ability to deliver on complex timelines make them our preferred partner for all luxury developments.',
+    rating: 5,
+    project: 'Saadiyat Island Villa',
+  },
+  {
+    id: 6,
+    name: 'Noora Al-Hassan',
+    role: 'Villa Owner',
+    location: 'Emirates Hills, Dubai',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80',
+    quote: 'The team at Desert Luxe has an extraordinary ability to listen. They took my vague ideas and created a home that feels both grand and intimate. The custom furniture pieces are works of art.',
+    rating: 5,
+    project: 'Emirates Hills Estate',
+  },
+];
+
+// FAQs
+export const FAQS = [
+  {
+    question: 'What areas in the UAE do you serve?',
+    answer: 'We serve all Emirates including Dubai, Abu Dhabi, Sharjah, Ajman, and Ras Al Khaimah. Our primary project locations include Palm Jumeirah, Emirates Hills, Downtown Dubai, Dubai Marina, Business Bay, DIFC, Saadiyat Island, and Al Raha Beach.',
+  },
+  {
+    question: 'How long does a typical interior design project take?',
+    answer: 'Project timelines vary based on scope and complexity. A standard apartment fit-out typically takes 8-12 weeks, while a luxury villa project may take 4-8 months. Commercial fit-outs range from 3-6 months depending on size. We provide detailed timelines during our initial consultation.',
+  },
+  {
+    question: 'Do you offer turnkey fit-out services?',
+    answer: 'Yes, we offer comprehensive turnkey fit-out solutions. This means we handle everything from concept design and 3D visualization to authority approvals, procurement, construction, and final handover. You deal with one team, one contract, and one point of accountability.',
+  },
+  {
+    question: 'What is your design process?',
+    answer: 'Our process follows five key phases: (1) Discovery — in-depth consultation and brief development, (2) Concept — mood boards, material palettes, and spatial planning, (3) Design — detailed 3D renders and technical drawings, (4) Execution — precision fit-out with quality control, and (5) Reveal — final styling and handover.',
+  },
+  {
+    question: 'Can you work with my existing furniture and art collection?',
+    answer: 'Absolutely. We specialize in integrating existing pieces into new designs. During our discovery phase, we assess your current furniture, art, and personal items, then design spaces that honor these pieces while introducing new elements that elevate the overall aesthetic.',
+  },
+  {
+    question: 'Do you handle authority approvals and NOCs?',
+    answer: 'Yes, we manage all necessary approvals including DED, Dubai Municipality, Trakhees, and building management NOCs. Our team has extensive experience navigating UAE regulatory requirements, ensuring your project proceeds without administrative delays.',
+  },
+  {
+    question: 'What is the cost range for your services?',
+    answer: 'Our design fees typically range from AED 250-500 per square meter depending on project complexity and service level. Fit-out costs vary significantly based on material selections and scope. We provide transparent, itemized quotations after the initial consultation.',
+  },
+  {
+    question: 'Do you offer a warranty on your work?',
+    answer: 'Yes, we provide a comprehensive 2-year warranty on all fit-out work and a 5-year warranty on structural elements. Our custom furniture comes with a lifetime craftsmanship guarantee. We also offer maintenance packages to keep your space looking pristine.',
+  },
+];
+
+// Team Members
+export const TEAM = [
+  {
+    id: 1,
+    name: 'Omar Khalid',
+    role: 'Founder & Creative Director',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80',
+    bio: 'With over 18 years of experience in luxury interior design across the Middle East and Europe, Omar founded Desert Luxe Interiors with a vision to create spaces that tell stories. His work has been featured in Architectural Digest Middle East and Elle Decor.',
+    specialties: ['Luxury Villas', 'Concept Development', 'Art Curation'],
+  },
+  {
+    id: 2,
+    name: 'Layla Hassan',
+    role: 'Design Director',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80',
+    bio: 'Layla brings 12 years of international design experience from Milan and London. Her expertise in materiality and spatial planning has shaped some of our most celebrated projects. She holds a Master\'s in Interior Design from Politecnico di Milano.',
+    specialties: ['Material Curation', 'Spatial Planning', 'Residential Design'],
+  },
+  {
+    id: 3,
+    name: 'Rashid Al-Mansouri',
+    role: 'Project Director',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80',
+    bio: 'Rashid oversees all project execution with military precision. His background in civil engineering and 15 years of UAE construction experience ensure every project is delivered on time, on budget, and to the highest standards.',
+    specialties: ['Project Management', 'Fit-Out Execution', 'Quality Control'],
+  },
+  {
+    id: 4,
+    name: 'Sophia Chen',
+    role: 'Senior Interior Designer',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80',
+    bio: 'Sophia specializes in contemporary luxury with an Asian minimalist influence. Her designs for apartments and penthouses have earned her recognition as one of Dubai\'s top emerging designers. She is passionate about sustainable luxury.',
+    specialties: ['Apartment Design', 'Minimalist Luxury', 'Sustainable Design'],
+  },
+  {
+    id: 5,
+    name: 'Marcus Weber',
+    role: 'Commercial Design Lead',
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80',
+    bio: 'Marcus leads our commercial division, designing offices, retail spaces, and hospitality interiors. His German engineering background combined with creative vision results in spaces that are both beautiful and highly functional.',
+    specialties: ['Office Design', 'Commercial Fit-Out', 'Brand Integration'],
+  },
+  {
+    id: 6,
+    name: 'Aisha Patel',
+    role: 'Custom Furniture Designer',
+    image: 'https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80',
+    bio: 'Aisha designs bespoke furniture pieces that become the centerpiece of our projects. Trained in traditional woodworking and contemporary design, she bridges artisanal craftsmanship with modern aesthetics.',
+    specialties: ['Bespoke Furniture', 'Joinery Design', 'Material Innovation'],
+  },
+];
+
+// Why Choose Us
+export const WHY_CHOOSE_US = [
+  {
+    id: 1,
+    title: 'Bespoke Design Excellence',
+    description: 'Every project is uniquely tailored to your lifestyle, preferences, and architectural context. We never recycle designs — each space is a one-of-a-kind creation.',
+    icon: 'Gem',
+  },
+  {
+    id: 2,
+    title: 'Turnkey Solutions',
+    description: 'From concept to completion, we manage every detail. One contract, one team, one point of accountability — eliminating the stress of coordinating multiple vendors.',
+    icon: 'CheckCircle',
+  },
+  {
+    id: 3,
+    title: 'Premium Materials',
+    description: 'We source the finest materials from Italy, France, Turkey, and beyond. Italian marble, French fabrics, exotic hardwoods — only the best for your space.',
+    icon: 'Diamond',
+  },
+  {
+    id: 4,
+    title: '3D Visualization',
+    description: 'See your space before a single nail is hammered. Our photorealistic 3D renders allow you to experience your future home with complete confidence.',
+    icon: 'Eye',
+  },
+  {
+    id: 5,
+    title: 'On-Time Delivery',
+    description: 'We respect your time. Our project management systems and experienced team ensure 95% of projects are completed on or before schedule.',
+    icon: 'Clock',
+  },
+  {
+    id: 6,
+    title: 'Aftercare & Warranty',
+    description: 'Our relationship does not end at handover. We provide comprehensive warranties, maintenance packages, and ongoing design support for all clients.',
+    icon: 'Shield',
+  },
+];
+
+// Design Process Steps
+export const DESIGN_PROCESS = [
+  {
+    number: '01',
+    title: 'Discovery',
+    description: 'We begin with an in-depth consultation at your property or our showroom. We listen, observe, and understand your lifestyle, aesthetic preferences, functional needs, and budget parameters.',
+    icon: 'MessageCircle',
+  },
+  {
+    number: '02',
+    title: 'Concept',
+    description: 'Our design team develops mood boards, material palettes, and initial spatial concepts. We present 2-3 design directions for your feedback and refinement.',
+    icon: 'Lightbulb',
+  },
+  {
+    number: '03',
+    title: 'Design Development',
+    description: 'Once a direction is selected, we create detailed 3D visualizations, technical drawings, and comprehensive specification documents including every material, fixture, and finish.',
+    icon: 'PenTool',
+  },
+  {
+    number: '04',
+    title: 'Execution',
+    description: 'Our project management team coordinates all trades, manages procurement, and oversees construction with weekly site visits and progress reporting.',
+    icon: 'Wrench',
+  },
+  {
+    number: '05',
+    title: 'Styling & Handover',
+    description: 'The final phase includes art placement, accessory styling, quality snagging, and a comprehensive handover with maintenance documentation and warranty information.',
+    icon: 'Key',
+  },
+];
+
+// Contact Info
+export const CONTACT_INFO = {
+  dubai: {
+    city: 'Dubai',
+    address: 'Unit 402, Building 7, Dubai Design District (d3), Dubai, UAE',
+    phone: '+971 4 555 8900',
+    email: 'dubai@desertluxe.ae',
+    whatsapp: '+971 50 123 4567',
+    hours: 'Sun - Thu: 9:00 AM - 7:00 PM',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.9285!2d55.2654!3d25.1856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85c07%3A0xa5eda9fb3c93b69d!2sDubai%20Design%20District%20(d3)!5e0!3m2!1sen!2sae!4v1700000000000!5m2!1sen!2sae',
+  },
+  abuDhabi: {
+    city: 'Abu Dhabi',
+    address: 'Office 1203, Al Maryah Tower, Al Maryah Island, Abu Dhabi, UAE',
+    phone: '+971 2 555 6700',
+    email: 'abudhabi@desertluxe.ae',
+    whatsapp: '+971 50 123 4567',
+    hours: 'Sun - Thu: 9:00 AM - 6:00 PM',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.2345!2d54.3856!3d24.4998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e6655e5c5e5c5%3A0x5e5c5e5c5e5c5e5c!2sAl%20Maryah%20Island!5e0!3m2!1sen!2sae!4v1700000000000!5m2!1sen!2sae',
+  },
+};
+
+// Portfolio Filter Categories
+export const PORTFOLIO_CATEGORIES = ['All', 'Villa', 'Apartment', 'Office'];
+
+// Portfolio Locations for filter
+export const PORTFOLIO_LOCATIONS = ['All Locations', 'Palm Jumeirah', 'Dubai Marina', 'Downtown Dubai', 'Business Bay', 'Emirates Hills', 'Abu Dhabi', 'DIFC', 'Bluewaters Island'];
