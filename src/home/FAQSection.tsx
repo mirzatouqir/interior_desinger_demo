@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import SectionHeader from '@/components/SectionHeader';
 import { FAQS } from '@/data/content';
 
 export default function FAQSection() {

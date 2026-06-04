@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, useLocation } from 'react-router-dom';
+import {  useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Check, MapPin, ChevronRight } from 'lucide-react';
@@ -33,7 +33,7 @@ export default function ServicesPage() {
   }, [location]);
 
   const currentService = SERVICES.find(s => s.id === activeService) || SERVICES[0];
-  const { ref, isVisible } = useScrollAnimation();
+  const { ref } = useScrollAnimation();
 
   return (
     <div className="pt-20">

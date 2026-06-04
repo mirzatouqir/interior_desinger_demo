@@ -2,14 +2,13 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, MapPin, Maximize2, Calendar, Ruler, User, Tag } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import SectionHeader from '@/components/SectionHeader';
 import { PORTFOLIO_PROJECTS, PORTFOLIO_CATEGORIES, PORTFOLIO_LOCATIONS } from '@/data/content';
 
 export default function PortfolioPage() {
   const [activeCategory, setActiveCategory] = useState('All');
   const [activeLocation, setActiveLocation] = useState('All Locations');
   const [selectedProject, setSelectedProject] = useState<typeof PORTFOLIO_PROJECTS[0] | null>(null);
-  const { ref, isVisible } = useScrollAnimation();
+  const { ref } = useScrollAnimation();
 
   const filteredProjects = PORTFOLIO_PROJECTS.filter((project) => {
     const categoryMatch = activeCategory === 'All' || project.category === activeCategory;
